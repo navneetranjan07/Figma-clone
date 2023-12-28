@@ -1,0 +1,1672 @@
+.body {
+    margin: auto;
+}
+.navbar{
+    width: 1440px;
+}
+.top {
+    background: #F0ECF9;
+    width: 1440px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.covid {
+    flex: 1;
+    font-size: 35px;
+    margin-left: 129px;
+    /* padding-left: 129px; */
+}
+
+.menu {
+    flex: 1;
+    margin-right: 129px;
+    width: 551px;
+    height: 22px;
+    display: flex;
+    gap: 28px;
+    margin: 10px;
+    color: #808081;
+}
+
+.item {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.first_view {
+    height: 520px;
+    width: 1440px;
+    display: flex;
+    border-radius: 0px 0px 400px 0px;
+    background: #F0ECF9;
+}
+
+.text {
+    flex: 1;
+}
+
+.awareness {
+    width: 196px;
+    height: 20px;
+    font-size: 16px;
+    padding-top: 142px;
+    padding-left: 129px;
+    color: rgba(111, 66, 193, 0.60);
+}
+
+.stay_safe {
+    height: 60px;
+    width: 584px;
+    font-size: 48.268px;
+    margin-left: 129px;
+    color: #6F42C1;
+}
+
+.amet {
+    height: 43.858px;
+    width: 544.355px;
+    margin-left: 129px;
+    font-size: 15px;
+    color: #808081;
+    line-height: 23px;
+
+}
+
+.prevent {
+    margin-left: 129px;
+    border-radius: 25.799px;
+    background: #6F42C1;
+    display: inline-flex;
+    padding: 12.899px 32.249px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.image_area {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 0px 0px 400px 0px;
+}
+
+.image {
+    margin-top: 170px;
+    overflow: hidden;
+}
+
+/* navebar ended */
+
+.statics_cases {
+    height: 405px;
+    width: 1440px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.statics {
+    flex: 1;
+    text-align: center;
+}
+
+.coronavirus_statatistics {
+    height: 38px;
+    width: 338px;
+    margin-left: 46px;
+    margin-top: 63px;
+    font-size: 30px;
+    color: var(--heading, #6F42C1);
+    font-weight: 900;
+}
+
+.coronavirus_statatistics_info {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--para, #808081);
+}
+
+.cases {
+    flex: 1;
+    /* background-color: green; */
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    padding: 0px 30px 60px 30px;
+}
+
+.active_case {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.active_case_number {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.active_case_text {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: var(--main-para, #989898);
+}
+
+.death_cases {
+    flex: 1;
+    margin-left: 82px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.death_cases_number {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.death_cases_text {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: var(--main-para, #989898);
+}
+
+.recovered_cases {
+    flex: 1;
+    margin-left: 82px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+.recovered_cases_number {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.recovered_cases_text {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: var(--main-para, #989898);
+}
+
+/* stastics ended */
+
+.about_coronavirus {
+    height: 1207px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first_portion {
+    height: 411px;
+    width: 1110px;
+    display: flex;
+}
+
+.what_is {
+    height: 320.79883px;
+    width: 403px;
+    margin-left: 102px;
+}
+
+.what_is_coronavirus {
+    height: 38px;
+    width: 321px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6F42C1;
+}
+
+.text_in_what {
+    width: 403px;
+    height: 69px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 26px;
+    line-height: 23px;
+    color: #989898;
+}
+
+.points_in_what {
+    height: 187.8px;
+    width: 320.79883px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: #989898;
+}
+
+.first_point {
+    height: 23px;
+    width: 235px;
+    display: flex;
+    margin-left: 2px;
+}
+
+.point_logo1 {
+    margin-top: 4px;
+}
+
+.point_text1 {
+    margin-left: 10px;
+}
+
+.second_point {
+    height: 23px;
+    width: 235px;
+    display: flex;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+
+.point_logo2 {
+    margin-top: 4px;
+}
+
+.point_text2 {
+    margin-left: 10px;
+}
+
+.third_point {
+    height: 23px;
+    width: 235px;
+    display: flex;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+
+.point_logo3 {
+    margin-top: 4px;
+}
+
+.point_text3 {
+    margin-left: 10px;
+}
+
+.learn_more {
+    height: 44.79882px;
+    width: 161.49704px;
+    border-radius: 25.799px;
+    padding: 12.899px 32.249px;
+    margin-top: 50px;
+    background: #6F42C1;
+    font-weight: 400;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* first portion ended */
+
+.blank_space {
+    height: 101px;
+    width: 1110px;
+}
+
+/* blank space ended */
+
+.last_portion {
+    height: 411px;
+    width: 1110px;
+    display: flex;
+}
+
+.why_is {
+    display: flex;
+    flex-direction: column;
+}
+
+.why_text_area {
+    flex: 1;
+}
+
+.person_with_mask {
+    flex: 1;
+}
+
+.why_is_it_dangerous {
+    height: 38px;
+    width: 319px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6F42C1;
+
+}
+
+.text_in_why {
+    margin-top: 26px;
+    height: 69px;
+    width: 403px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #989898;
+    line-height: 23px;
+}
+
+.points_in_why {
+    height: 187.8px;
+    margin-left: 2px;
+    margin-top: 50px;
+    color: #989898;
+
+}
+
+.first_points {
+    display: flex;
+}
+
+.points_logo1 {
+    margin-top: 4px;
+}
+
+.points_text1 {
+    margin-left: 10px;
+}
+
+.second_points {
+    display: flex;
+    margin-top: 7px;
+}
+
+.points_logo2 {
+    margin-top: 4px;
+}
+
+.points_text2 {
+    margin-left: 10px;
+}
+
+.third_points {
+    display: flex;
+    margin-top: 7px;
+
+}
+
+.points_logo3 {
+    margin-top: 4px;
+}
+
+.points_text3 {
+    margin-left: 10px;
+}
+
+
+.learn_more1 {
+    height: 44.79882px;
+    width: 161.49704px;
+    border-radius: 25.799px;
+    padding: 12.899px 32.249px;
+    margin-top: -60px;
+    background: #6F42C1;
+    font-weight: 400;
+    cursor: pointer;
+    color: #FFF;
+}
+
+/* last portion ended */
+
+.symptom_precaution_security_treatment {
+    height: 284px;
+    width: 1110px;
+    display: flex;
+}
+
+.symptom {
+    flex: 1;
+}
+
+.precaution {
+    flex: 1;
+}
+
+.security {
+    flex: 1;
+}
+
+.treatment {
+    flex: 1;
+}
+
+
+.symptom {
+    display: flex;
+    height: 95px;
+    width: 273px;
+    align-items: center;
+    margin-top: 93px;
+}
+
+.star_logo {
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+.symptoms_head {
+    font-size: 18px;
+    font-weight: 900;
+    color: #6F42C1;
+    line-height: 23px;
+    margin-left: 9px;
+}
+
+.symptoms_text {
+    width: 169px;
+    height: 23px;
+    margin-left: 9px;
+    color: #989898;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.precaution {
+    display: flex;
+    height: 95px;
+    width: 273px;
+    align-items: center;
+    margin-top: 93px;
+}
+
+.boy_face_logo {
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+.precaution_head {
+    font-size: 18px;
+    font-weight: 900;
+    color: #6F42C1;
+    line-height: 23px;
+    margin-left: 9px;
+}
+
+.precaution_text {
+    width: 169px;
+    height: 23px;
+    margin-left: 9px;
+    color: #989898;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.security {
+    display: flex;
+    height: 95px;
+    width: 273px;
+    align-items: center;
+    margin-top: 93px;
+}
+
+.security_logo {
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+.security_head {
+    font-size: 18px;
+    font-weight: 900;
+    color: #6F42C1;
+    line-height: 23px;
+    margin-left: 9px;
+}
+
+.security_text {
+    width: 169px;
+    height: 23px;
+    margin-left: 9px;
+    color: #989898;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.treatment {
+    display: flex;
+    height: 95px;
+    width: 273px;
+    align-items: center;
+    margin-top: 93px;
+}
+
+.treatment_logo {
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+.treatment_head {
+    font-size: 18px;
+    font-weight: 900;
+    color: #6F42C1;
+    line-height: 23px;
+    margin-left: 9px;
+}
+
+.treatment_text {
+    width: 169px;
+    height: 23px;
+    margin-left: 9px;
+    color: #989898;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/* prventCoronavirus_started */
+
+.prventCoronavirus {
+    height: 800px;
+    width: 1440px;
+    display: flex;
+    background-color: rgba(248,245,252,1);
+}
+
+.four_home_div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div_inside_four_home_div {
+    width: 528px;
+    height: 750px;
+    margin-left: 140px;
+    display: flex;
+
+}
+
+
+.home_div_first_row {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home1_first_row {
+    flex: 1;
+    width: 239px;
+    height: 239px;
+    margin-top: 87px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(111, 66, 193, 0.20);
+}
+
+.home_logo1 {
+    height: 130px;
+    width: 239px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(226, 217, 243, 1);
+}
+
+.home_logo1_text {
+    height: 170px;
+    width: 239px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_logo1_text_heading {
+    height: 21px;
+    width: 131px;
+    margin-top: 37px;
+    margin-left: 23px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.home_logo1_text_words {
+    height: 69px;
+    width: 193px;
+    margin-left: 23.13px;
+    margin-top: 10px;
+    color: #989898;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.home2_first_row {
+    flex: 1;
+    height: 239px;
+    width: 239px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(111, 66, 193, 0.20);
+}
+
+.home_logo2 {
+    height: 130px;
+    width: 239px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(226, 217, 243, 1);
+}
+
+.home_logo2_text {
+    height: 170px;
+    width: 239px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_logo2_text_heading {
+    height: 21px;
+    width: 131px;
+    margin-top: 37px;
+    margin-left: 23px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.home_logo2_text_words {
+    height: 69px;
+    width: 193px;
+    margin-left: 23.13px;
+    margin-top: 10px;
+    color: #989898;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+
+
+
+.home_div_second_row {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.home1_second_row {
+    flex: 1;
+    height: 239px;
+    width: 239px;
+    margin-bottom: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(111, 66, 193, 0.20);
+}
+
+.home_logo3 {
+    height: 130px;
+    width: 239px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(226, 217, 243, 1);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.home_logo3_text {
+    height: 170px;
+    width: 239px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_logo3_text_heading {
+    height: 21px;
+    width: 131px;
+    margin-top: 37px;
+    margin-left: 23px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.home_logo3_text_words {
+    height: 69px;
+    width: 193px;
+    margin-left: 23.13px;
+    margin-top: 10px;
+    color: #989898;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+
+
+
+.home2_second_row {
+    flex: 1;
+    height: 239px;
+    width: 239px;
+    margin-left: 25px;
+    margin-bottom: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(111, 66, 193, 0.20);
+}
+
+.home_logo4 {
+    height: 130px;
+    width: 239px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(226, 217, 243, 1);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.home_logo4_text {
+    height: 170px;
+    width: 239px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_logo4_text_heading {
+    height: 21px;
+    width: 131px;
+    margin-top: 37px;
+    margin-left: 23px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.home_logo4_text_words {
+    height: 69px;
+    width: 193px;
+    margin-left: 23.13px;
+    margin-top: 10px;
+    color: #989898;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+
+/* how to prevent coronavirus started */
+
+.how_to_prevent_coronavirus {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.how_to_prevent_coronavirus_head {
+    width: 451px;
+    height: 38px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6F42C1;
+    margin-left: 38px;
+    margin-top: 162px;
+}
+
+.paragraph1_in_how_to_prevent_coronavirus {
+    width: 403px;
+    height: 69px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+    margin-left: 38px;
+    margin-top: 27px;
+}
+
+.paragraph2_in_how_to_prevent_coronavirus {
+    width: 403px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-left: 38px;
+    color: #989898;
+    margin-top: 20px;
+}
+
+.first_point_in_how_to_prevent_coronavirus {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 38px;
+}
+
+.logo1_in_how_to_prevent_coronavirus {
+    margin-top: 4px;
+}
+
+.logo1_text_in_how_to_prevent_coronavirus {
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.second_point_in_how_to_prevent_coronavirus {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 7px;
+}
+
+.logo2_in_how_to_prevent_coronavirus {
+    margin-top: 4px;
+}
+
+.logo2_text_in_how_to_prevent_coronavirus {
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.third_point_in_how_to_prevent_coronavirus {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 7px;
+}
+
+.logo3_in_how_to_prevent_coronavirus {
+    margin-top: 4px;
+}
+
+.logo3_text_in_how_to_prevent_coronavirus {
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+
+.read_more_about_prevention {
+    margin-top: 36px;
+    width: 276.4970px;
+    height: 41.79882px;
+    margin-left: 38px;
+    /* padding: 12.899px 32.249px; */
+    font-size: 13px;
+    border-radius: 30px;
+    color: #FFF;
+    cursor: pointer;
+    background-color: #6F42C1;
+}
+
+
+/* how_to_protect_yourself_main_div started */
+
+.how_to_protect_yourself_main_div {
+    height: 731px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.how_to_protect_yourself_main {
+    flex: 1;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how_to_protect_yourself_question {
+    height: 38px;
+    width: 358px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6F42C1;
+    margin-top: 58px;
+}
+
+.how_to_protect_yourself_answer {
+    height: 23px;
+    width: 503px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(128, 128, 129, 1);
+    margin-top: 10px;
+}
+
+.how_to_protect_yourself_points_and_image {
+    flex: 4;
+    display: flex;
+}
+
+.points_in_how_to_protect_yourself_points_and_image {
+    height: 295px;
+    width: 524px;
+    margin-left: 130px;
+    margin-top: 170px;
+    display: flex;
+}
+
+.points_on_you_should_do {
+    flex: 1;
+}
+
+.you_should_do {
+    width: 114px;
+    height: 23px;
+    margin-left: 2px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: black;
+}
+
+.stay_at_home_main {
+    display: flex;
+    margin-top: 34px;
+    height: 23px;
+}
+
+.logo_stay_at_home {
+    margin-top: 2px;
+}
+
+.text_stay_at_home {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+
+.wear_mask_head {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_wear_mask {
+    margin-top: 2px;
+}
+
+.text_wear_mask {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.use_sanetizer_head {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_use_sanetizer {
+    margin-top: 2px;
+}
+
+.text_use_sanetizer {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.disinfect_your_home_head {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_disinfect_your_home {
+    margin-top: 2px;
+}
+
+.text_disinfect_your_home {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.wash_your_hands_head {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_wash_your_hands {
+    margin-top: 2px;
+}
+
+.text_wash_your_hands {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.frequent_self-isolation_head {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_frequent_self-isolation {
+    margin-top: 2px;
+}
+
+.text_frequent_self-isolation {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+
+
+.points_on_you_should_avoid {
+    flex: 1;
+}
+
+.You_should_avoid {
+    height: 23px;
+    margin-left: 2px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: black;
+}
+
+.avoid_infected_people_main {
+    display: flex;
+    margin-top: 34px;
+    height: 23px;
+}
+
+.logo_avoid_infected_people {
+    margin-top: 2px;
+}
+
+.text_avoid_infected_people {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+
+.avoid_animals_main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_avoid_animals {
+    margin-top: 2px;
+}
+
+.text_avoid_animals {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.avoid_handshaking_main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_avoid_handshaking {
+    margin-top: 2px;
+}
+
+.text_avoid_handshaking {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.avoid_infected_surfaces_main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_avoid_infected_surfaces {
+    margin-top: 2px;
+}
+
+.text_avoid_infected_surfaces {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.avoid_touching_your_face_main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_avoid_touching_your_face {
+    margin-top: 2px;
+}
+
+.text_avoid_touching_your_face {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+.avoid_droplets_main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo_avoid_droplets {
+    margin-top: 2px;
+}
+
+.text_avoid_droplets {
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+}
+
+
+.image_in_how_to_protect_yourself_points_and_image {
+    margin-left: 51px;
+    margin-top: 91px;
+
+}
+
+
+/* SymtomsCoronavirus started */
+.SymtomsCoronavirus {
+    height: 875px;
+    width: 1439px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(248,245,252,1);
+}
+
+.symtoms_of_coronavirus {
+    height: 38px;
+    width: 327px;
+    margin-top: 63px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6F42C1;
+
+}
+
+.text_below_symtoms_of_coronavirus {
+    height: 48px;
+    width: 507px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #808081;
+}
+
+.main_div_of_high_fever_cough_sore_troath_headache {
+    height: 408px;
+    width: 1115px;
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_high_fever_and_cough {
+    flex: 1;
+    display: flex;
+    /* gap: 175px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.high_fever {
+    width: 470px;
+    height: 184px;
+    display: flex;
+}
+
+.high_fever_logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.high_fever_texts {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.High_Fever_heading {
+    flex: 1.5;
+    display: flex;
+    align-items: end;
+    height: 23px;
+    width: 87px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #6F42C1;
+}
+
+.high_fever_paragraph {
+    flex: 2.5;
+    width: 263px;
+    height: 69px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(164, 164, 164, 1);
+}
+
+.cough {
+    width: 470px;
+    height: 184px;
+    display: flex;
+}
+
+.cough_logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cough_texts {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cough_heading {
+    flex: 1.5;
+    display: flex;
+    align-items: end;
+    height: 23px;
+    width: 87px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #6F42C1;
+}
+
+.cough_paragraph {
+    flex: 2.5;
+    width: 263px;
+    height: 69px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(164, 164, 164, 1);
+}
+
+.div_sare_troath_and_headache {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sare_troath {
+    width: 470px;
+    height: 184px;
+    display: flex;
+}
+
+.sare_troath_logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sare_troath_texts {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.sare_troath_heading {
+    flex: 1.5;
+    display: flex;
+    align-items: end;
+    height: 23px;
+    width: 95px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #6F42C1;
+}
+
+.sare_troath_paragraph {
+    flex: 2.5;
+    width: 263px;
+    height: 69px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(164, 164, 164, 1);
+}
+
+.headache {
+    width: 470px;
+    height: 184px;
+    display: flex;
+}
+
+.headache_logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headache_texts {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.headache_heading {
+    flex: 1.5;
+    display: flex;
+    align-items: end;
+    height: 23px;
+    width: 95px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #6F42C1;
+}
+
+.headache_paragraph {
+    flex: 2.5;
+    width: 263px;
+    height: 69px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(164, 164, 164, 1);
+}
+
+.main_div_of_stay_at_home_and_call_your_doctor_help_line {
+    height: 45px;
+    width: 954px;
+    margin-top: 89px;
+    display: flex;
+}
+
+.stay_at_home_and_call_your_doctor {
+    flex: 2;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #6F42C1;
+}
+
+span {
+    color: rgba(164, 164, 164, 1);
+}
+
+.help_line_main_div {
+    flex: 1;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.help_line {
+    padding: 12.899px 32.249px;
+    border-radius: 30px;
+    color: #FFF;
+    background-color: rgba(111, 66, 193, 1);
+    cursor: pointer;
+}
+
+
+.news_and_articles_with_picture_main_div{
+    height: 652px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news_and_articles_with_picture_sub_div{
+    height: 538px;
+    width: 1179px;
+    display: flex;
+    flex-direction: column;
+}
+.news_and_articles_main_div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news_and_articles{
+    flex: 1;
+    display: flex;
+    align-items: end;
+    height: 38px;
+    width: 274px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #6F42C1;
+}
+.news_and_articles_paragraph{
+    flex: 1;
+    margin-top: 10px;
+    height: 46px;
+    width: 507px;
+    text-align: center;
+    color: #808081;
+}
+
+
+.pictures_in_news_and_articles{
+    flex: 2;
+    display: flex;
+    gap: 30px;
+}
+
+.lady_with_mask_1_in_news_and_articles, 
+.lady_with_mask_2_in_news_and_articles, 
+.person_with_mask_in_news_and_articles{
+    flex: 1;
+    height: 351px;
+    width: 373px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image_lady_with_mask{
+    flex: 2;
+}
+.admin_comments{
+    flex: 1;
+    width: 249px;
+    height: 24px;
+    display: flex;
+    margin-top: 31.43px;
+}
+.admin{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 10;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+    width: 40px;
+    height: 23px;
+}
+.admin_logo{
+    display: flex;
+}
+.admin_text{
+    margin-left: 10px;
+}
+
+
+.comments{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 10;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+    width: 79px;
+    height: 23px;
+}
+.comments_logo{
+    display: flex;
+}
+.comments_text{
+    margin-left: 10px;
+}
+
+.how_coronavirs_very_contigous{
+    flex: 1;
+    height: 23px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #6F42C1;
+    margin-top: 12px;
+}
+
+
+
+.footer{
+    height: 333px;
+    width: 1440px;
+    display: flex;
+    background-color: rgba(248,245,252,1);
+}
+.about_in_footer{
+    flex: 2.5;
+    flex-direction: column;
+    display: flex;
+}
+.about_div{
+    height: 23px;
+    width: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #000;
+    margin-left: 131px;
+    margin-top: 63px;
+}
+.about_paragraph_div{
+    height: 69px;
+    width: 302px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #989898;
+    margin-left: 131px;
+    margin-top: 18px;
+}
+.scoial_media_icons{
+    height: 25px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 131px;
+    margin-top: 52px;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+.quick_links_in_footer,.helpful_links_in_footer,.resources_in_footer{
+    flex: 1.7;
+}
+
+.links{
+    margin-top: 14px;
+    margin-left: 50px;
+}
+.quick_link{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #6F42C1;
+}
+
+.quick_links,.helpful_links,.resources{
+    margin-left: 50px;
+    margin-top: 72px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+}
